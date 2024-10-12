@@ -19,7 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yashprajapati.timer"
+    },
+    "notification": {
+      "icon": "./assets/icon.png", 
+      "color": "#000000",
+      "androidMode": "default", 
+      "androidCollapsedTitle": "New Notification"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f4993a68-de06-485a-949d-36fde1d748ad"
+      }
     }
   }
 }
